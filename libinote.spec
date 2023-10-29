@@ -1,13 +1,13 @@
 Summary:	Library to preprocess a text aimed to text-to-speech engine
 Summary(pl.UTF-8):	Biblioteka do przetwarzania tekstu przeznaczonego do syntezy mowy
 Name:		libinote
-Version:	1.1.2
+Version:	1.1.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
 #Source0Download: https://github.com/Oralux/libinote/tags
 Source0:	https://github.com/Oralux/libinote/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	7a707f8b9946260697d8adb7f350fddf
+# Source0-md5:	b482bac00a9cc9a7c2840c9ef90b9aa6
 URL:		https://github.com/Oralux/libinote
 BuildRequires:	gcc >= 6:4.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
